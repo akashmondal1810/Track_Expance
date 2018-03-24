@@ -3,6 +3,16 @@
 * Publicly hosted at: https://codefundoiit.000webhostapp.com/
 * Demo video at: https://youtu.be/-lsoxJi7Xs4
 
+#### Download and make the following changes in `dbcontroller.php` and `function.php`
+
+```ruby
+	private $host = "localhost";
+	private $user = "root";
+	private $password = "Enter password"; # enter password of your database
+	private $database = "Enter Name";     # import `exp_ak.sql` db and enter its name here
+	
+```
+
 ### Sample user name and password
 * Username: `sample@gmail.com`
 * Password: `12345`
