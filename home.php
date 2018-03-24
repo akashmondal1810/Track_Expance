@@ -15,7 +15,7 @@ else
 $sid=$_SESSION['id'];
 ?>
 <head>
-    <title>Wandor Admin</title>
+    <title>Daily Expanses Manager</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="images/favicon.png" />
     <link rel="stylesheet" href="css/jquery-ui.css">
@@ -138,7 +138,7 @@ else
 <body onLoad="document.showexp.edetail.focus()">
 <div style="padding:10px; margin:10px;">
 <div class="panel panel-primary">
-  <div class="panel-heading"><b>Wandor Admin Manager</b></div>
+  <div class="panel-heading"><b>Daily Expanses Manager</b></div>
   <div class="panel-body">
 
 <div class="media">
@@ -211,7 +211,10 @@ else
 
 </div>
 
-
+<div class="alert alert-warning alert-dismissible" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+   Don't Know How to use, <a href=" https://youtu.be/-lsoxJi7Xs4"><strong>Click Here!</strong></a>
+</div>
 
 <div class="panel panel-info">
 <div class="panel-heading"><a href="home.php"><b>Home</b></a>

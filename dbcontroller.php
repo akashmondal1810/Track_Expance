@@ -6,8 +6,8 @@ class DBController {
 	private $host = "localhost";
 	private $user = "root";
 	
-	private $password = "akash@1997";
-	private $database = "exp_ak";
+	private $password = "";
+	private $database = "";
 	
 	function __construct() {
 		$conn = $this->connectDB();
